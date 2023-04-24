@@ -13,6 +13,7 @@ body /*used to be :root, ask tutor support*/ {
 }
 
 h1 {
+    font-family: 'Monda', sans-serif;
     font-size: 5.4rem;
     color: #fff;
     margin-bottom: 5rem;
@@ -54,4 +55,51 @@ h2 {
 
 .hidden {
     display: none;
+}
+
+/*--Buttons--*/
+
+.btn {
+    font-size: 2.4rem;
+    padding: 2rem 0;
+    width: 30rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: rgb(28, 26,26);
+    background: linear-gradient(90deg, rgb(18, 93,255)0%, rgb(0, 102, 255)100%);
+    border-radius: 4px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(8, 114, 224, 0.6);
+    transition: transform 150ms;
+    transform: scale(1.03);
+}
+
+.btn[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
+
+#highscore-btn {
+    background: linear-gradient(90deg, rgb(243, 101, 7)0%, rgb(255, 94, 0)100%);
+}
+
+#highscore-btn:hover {
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(243, 103, 7, 0.6);
+}
+
+/*--Icons--*/
+
+.fa-trophy {
+    font-size: 2.5rem;
+    margin-left: 1rem;
+}
+
+.fa-play {
+    font-size: 2.5rem;
+    margin-left: 1rem;
 }
