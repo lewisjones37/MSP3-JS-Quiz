@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Monda&family=Roboto:wght@300&family=Teko:wght@300&display=swap');
 
 body /*used to be :root, ask tutor support*/ {
-    background-color: rgb(29, 26, 26);
+    background-color: rgb(29, 26, 26)
 }
 
 * {
