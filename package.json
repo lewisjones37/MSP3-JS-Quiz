@@ -1,0 +1,22 @@
+{
+  "name": "msp3-js-quiz",
+  "version": "1.0.0",
+  "description": "- [User Experience](#user-experience)   - [Initial Discussion](#initial-discussion)   - [Target Audience](#target-audience)   - [User Stories](#user-stories)   - [Client Goals](#client-goals) - [Design](#design)   - [Colour Scheme](#colour-scheme)   - [Fonts](#fonts)   - [Structure](#structure)   - [Imagery](#imagery)   - [Wireframes](#wireframes) - [Future Implementations](#future-implementations) - [Technologies Used](#technologies-used)   - [Frameworks & Tools](#frameworks--tools) - [Deployment](#deployment) - [Testing](#testing)   - [Responsiveness](#responsiveness)   - [Feature Testing](#feature-testing)   - [User Story Testing](#user-story-testing)   - [Browser Compatibility](#browser-compatibility)   - [Bugs](#bugs)   - [Performance](#performance)   - [Code Validation](#code-validation)   - [Accessibility](#accessibility) - [Credits](#credits)",
+  "main": "game.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lewisjones37/MSP3-JS-Quiz.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lewisjones37/MSP3-JS-Quiz/issues"
+  },
+  "homepage": "https://github.com/lewisjones37/MSP3-JS-Quiz#readme",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}

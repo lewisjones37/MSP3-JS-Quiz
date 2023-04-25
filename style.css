@@ -184,6 +184,7 @@ h2 {
     width: 0%
 }
 
+
 @media screen and (max-width: 768px) {
     .choice-container {
         min-width: 40rem;
