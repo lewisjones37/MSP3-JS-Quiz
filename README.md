@@ -54,6 +54,8 @@ This section will describe the colour scheme that will be used in the project.
 
 In designing this quiz, I wanted to create a fun and inviting experience for my users, and I believe that the choice of fonts plays a significant role in achieving this goal.
 
+I used Fontjoy.com to help me decide which fonts to pick as it is a useful tool for selecting fonts as it provides a good selection of choices based on the user's preferences and allows for easy comparison and customization. It uses machine learning algorithms to suggest font pairings that work well together and can help designers create a visually appealing and cohesive design.
+
 For the headings and buttons, I used Teko, a bold and modern sans-serif typeface with a unique geometric design. Its thick, rounded strokes and tight spacing make it stand out and grab the user's attention, giving a sense of playfulness and excitement to the overall design.
 
 For the questions and subheadings, I opted for Monda, another sans-serif font with a rounded and friendly appearance. It is both legible and fun, and its subtle curves give it a playful touch, making it an excellent fit for my quiz.
