@@ -4,7 +4,7 @@ body /*used to be :root, ask tutor support*/ {
     background-color: rgb(29, 26, 26)
 }
 
-* {
+*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -113,7 +113,7 @@ h2 {
 /*--choice boxes--*/
 
 .choice-container {
-    display: felx;
+    display: flex;
     margin-bottom: 0.8rem;
     width: 100%;
     border-radius: 4px;
@@ -130,11 +130,13 @@ h2 {
 }
 
 .choice-prefix {
+    font-family: 'Teko', sans-serif;
     padding: 2rem 2.5rem;
     color: white;
 }
 
 .choice-text {
+    font-family: 'Teko', sans-serif;
     padding: 2rem;
     width: 100%;
 }
@@ -143,9 +145,46 @@ h2 {
     background-color: linear-gradient(32deg, rgba(11, 223, 36)0% rgb(41, 232, 11)100%);
 }
 
+.incorrect {
+    background-color: linear-gradient(32deg, rgb(247, 16, 16)0% rgb(252, 6, 6)100%);
+}
+
 @media screen and (max-width: 768px) {
     .choice-container {
         min-width: 40rem;
     }
+
+/*-HUD-*/
+
+#hud {
+    display: flex;
+    justify-content: space-between
+}
+
+.hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hud-main-text {
+    text-align: center;
+}
+
+/*-progress bar-*/
+
+#progressBar {
+    width: 20rem;
+    height: 3rem;
+    border: 0.2rem solid rgb(11, 223, 36);
+    margin-top: 2rem;
+    border-radius: 50px;
+    overflow: hidden;
+
+}
+
+
+
+
+
 }@import url('https://fonts.googleapis.com/css2?family=Monda&family=Roboto:wght@300&family=Teko:wght@300&display=swap');
 
