@@ -9,3 +9,38 @@ let acceptingAnswers = true;
 let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
+
+let questions = [
+    {
+        question: 'Test question 1',
+        choice1: 'testanswer1',
+        choice2: 'testanswer2',
+        choice3: 'testanswer3',
+        choice4: 'testanswer4',
+        answer: 1,
+    },
+    {
+        question: 'Test question 1',
+        choice1: 'testanswer1',
+        choice2: 'testanswer2',
+        choice3: 'testanswer3',
+        choice4: 'testanswer4',
+        answer: 1,
+    },
+    {
+        question: 'Test question 1',
+        choice1: 'testanswer1',
+        choice2: 'testanswer2',
+        choice3: 'testanswer3',
+        choice4: 'testanswer4',
+        answer: 1,
+    },
+    {
+        question: 'Test question 1',
+        choice1: 'testanswer1',
+        choice2: 'testanswer2',
+        choice3: 'testanswer3',
+        choice4: 'testanswer4',
+        answer: 1,
+    }
+]
